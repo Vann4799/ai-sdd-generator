@@ -1,6 +1,6 @@
-# ⚙️ AI SDD Generator
+# 🚀 AI PRD Generator
 
-Generate comprehensive **Software Design Documents** through warm, conversational AI interviews.
+Generate comprehensive **Product Requirements Documents** through warm, conversational AI interviews.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/version-0.2.0-blue.svg)]()
@@ -19,22 +19,22 @@ Generate comprehensive **Software Design Documents** through warm, conversationa
 
 ### Claude Code
 ```bash
-git clone https://github.com/Vann4799/ai-sdd-generator.git ~/.claude/ai-sdd-generator
+git clone https://github.com/Vann4799/ai-prd-generator.git ~/.claude/ai-prd-generator
 ```
 
 ### Codex
 ```bash
-git clone https://github.com/Vann4799/ai-sdd-generator.git ~/.codex/ai-sdd-generator
+git clone https://github.com/Vann4799/ai-prd-generator.git ~/.codex/ai-prd-generator
 ```
 
 ### OpenCode
 ```bash
-git clone https://github.com/Vann4799/ai-sdd-generator.git ~/.opencode/skills/ai-sdd-generator
+git clone https://github.com/Vann4799/ai-prd-generator.git ~/.opencode/skills/ai-prd-generator
 ```
 
 ### Hermes Agent
 ```bash
-hermes skills install Vann4799/ai-sdd-generator
+hermes skills install Vann4799/ai-prd-generator
 ```
 
 ## 🎯 Usage
@@ -42,8 +42,19 @@ hermes skills install Vann4799/ai-sdd-generator
 Simply say:
 
 ```
-"Buat SDD untuk aplikasi kasir toko"
+"Buat PRD untuk aplikasi kasir toko"
 ```
+
+or:
+
+```
+"Generate a PRD for my expense tracking app"
+```
+
+The AI will:
+1. Ask questions one by one (warm, conversational)
+2. Generate a comprehensive PRD
+3. Provide a non-technical summary
 
 ## 📋 Interview Questions
 
@@ -51,24 +62,27 @@ Simply say:
 |---|--------------|---------------|
 | 1 | Apa nama aplikasinya? | What's the project name? |
 | 2 | Jenis aplikasinya apa? | What type of project? |
-| 3 | Arsitektur aplikasinya mau gimana? | What architecture? |
-| 4 | API-nya mau pakai apa? | What API style? |
-| 5 | Perlu terhubung ke layanan apa? | What integrations? |
-| 6 | Seberapa cepat harus merespon? | Performance requirements? |
-| 7 | Keamanannya gimana? | Security requirements? |
-| 8 | Mau Bahasa Indonesia atau English? | Language preference? |
+| 3 | Ceritain dong, aplikasi ini ngapain? | Describe what it does |
+| 4 | Siapa yang bakal pakai? | Who are the target users? |
+| 5 | Masalah apa yang mau diselesaikan? | What problem does it solve? |
+| 6 | Fitur utama apa aja? | What are the core features? |
+| 7 | Ada teknologi khusus? | Any preferred tech stack? |
+| 8 | Target selesai kapan? | What's the timeline? |
+| 9 | Gimana tau berhasil? | How will you measure success? |
+| 10 | Mau Bahasa Indonesia atau English? | Language preference? |
 
+## 📄 PRD Output
 
-## 📄 Output Structure
-
-1. Architecture Overview (with ASCII diagram)
-2. API Design
-3. System Components
-4. Integration Points
-5. Performance Requirements
-6. Security Requirements
-7. Deployment Architecture
-8. Non-Technical Summary
+1. Project Overview
+2. Problem Statement
+3. Target Users (with personas)
+4. Features (Must-have, Should-have, Nice-to-have)
+5. User Stories & Acceptance Criteria
+6. Technical Requirements
+7. Success Metrics
+8. Timeline & Milestones
+9. Risks & Mitigation
+10. **Non-Technical Summary** ← Bonus!
 
 ## 🤝 Contributing
 
